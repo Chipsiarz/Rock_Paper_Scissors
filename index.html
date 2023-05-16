@@ -9,9 +9,21 @@
   </head>
   <body>
     <div class="resultDiv">
-      <h2 class="resultText" id="playerChoise">Player:</h2>
-      <h2 class="resultText" id="computerChoise">Computer:</h2>
-      <h2 class="resultText" id="gameResult">Result:</h2>
+      <div class="scoreDiv">
+        <h2 class="playerColor">
+          Player Wins:<span id="playerScore"> 0</span>
+        </h2>
+        <h2 class="computerColor">
+          Computer Wins:<span id="computerScore"> 0</span>
+        </h2>
+        <h2>Draws:<span id="draws"> 0</span></h2>
+      </div>
+
+      <h2 class="resultText playerColor" id="playerChoice">Player Choice</h2>
+      <h2 class="resultText computerColor" id="computerChoice">
+        Computer Choice
+      </h2>
+      <h2 class="resultText" id="gameResult">Game Result</h2>
 
       <button class="choiceBtn">Rock</button>
       <button class="choiceBtn">Paper</button>

@@ -6,9 +6,25 @@ body {
   justify-content: center;
 }
 
+.scoreDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+
 .resultDiv {
+  min-width: 40%;
   padding: 80px;
   border: 3px solid black;
-  margin-top: 15%;
+  margin-top: 5%;
   text-align: center;
+}
+
+.playerColor {
+  color: green;
+}
+
+.computerColor {
+  color: blue;
 }
